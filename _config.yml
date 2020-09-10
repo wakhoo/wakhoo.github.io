@@ -96,7 +96,7 @@ author:
   name             : "기러기"
   avatar           : "/assets/images/logo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "공부하는 기러기"
-  location         : "편안한 둥지"
+  location         : "안락한 둥지"
   email            :
   links:
     - label: "Email"
@@ -107,7 +107,7 @@ author:
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/Author_ggirugi"
+      # url: "https://twitter.com/Author_ggirugi"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
@@ -123,7 +123,7 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/Author_ggirugi"
+      # url: "https://twitter.com/Author_ggirugi"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
