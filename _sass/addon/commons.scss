@@ -682,7 +682,7 @@ $btn-mb: 0.5rem;
 
 #sidebar {
   @include pl-pr(0);
-
+  
   position: fixed;
   top: 0;
   left: 0;
@@ -690,12 +690,11 @@ $btn-mb: 0.5rem;
   overflow-y: auto;
   width: $sidebar-width;
   z-index: 99;
-  background: url('/assets/img/sidebar.jpeg');
+  background: url('/assets/img/side.jpeg');
   background-repeat : no-repeat;
   background-size : cover;
   background-position: center;
   border-right: 1px solid var(--sidebar-border-color);
-
   /* Hide scrollbar for Chrome, Safari and Opera */
   &::-webkit-scrollbar {
     display: none;
@@ -725,7 +724,6 @@ $btn-mb: 0.5rem;
     overflow: hidden;
     box-shadow: var(--avatar-border-color) 0 0 0 2px;
     transform: translateZ(0); /* fixed the zoom in Safari */
-
     img {
       transition: transform 0.5s;
 
@@ -739,8 +737,8 @@ $btn-mb: 0.5rem;
     @include mt-mb(2.5rem);
     @extend %clickable-transition;
 
-    padding-left: 2.5rem;
-    padding-right: 1.25rem;
+    padding-left: 2.0rem;
+    padding-right: 2.0rem;
     width: 100%;
   }
 
@@ -752,6 +750,10 @@ $btn-mb: 0.5rem;
     letter-spacing: 0.25px;
     margin-top: 1.25rem;
     margin-bottom: 0.5rem;
+    background-color: #e76393;
+    text-align: center;
+    padding: 0.25rem;
+    border-radius: 5%;
 
     a {
       @extend %clickable-transition;
@@ -765,11 +767,15 @@ $btn-mb: 0.5rem;
     font-size: 95%;
     color: var(--site-subtitle-color);
     margin-top: 0.25rem;
+    padding: 0.25rem;
     word-spacing: 1px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    background-color: #e7ac63;
+    border-radius: 5%;
+    text-align: center;
   }
 
   ul {
