@@ -4,5 +4,6 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
+> 2022 Graduate Korea Univ(Sejong)  
+2023 Start 42Mulhouse
 {: .prompt-tip }
