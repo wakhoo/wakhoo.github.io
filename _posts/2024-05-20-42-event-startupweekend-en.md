@@ -8,7 +8,7 @@ pin: true
 math: true
 mermaid: true
 image:
-  path: /assets/img/startupweekend.jpeg
+  path: /assets/img/startup.png
   alt: Start of Startupweekend!!
 ---
 <!-- <details>

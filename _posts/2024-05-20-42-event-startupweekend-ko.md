@@ -8,7 +8,7 @@ pin: true
 math: true
 mermaid: true
 image:
-  path: /assets/img/startupweekend.jpeg
+  path: /assets/img/startup.png
   alt: Startupweekend의 시작!
 ---
 <!-- <details>
